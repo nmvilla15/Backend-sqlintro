@@ -16,7 +16,7 @@ INSERT INTO Products VALUES (NULL, "Maple Syrup", 1, 2, "15 - 12 oz bottles", 10
                             (NULL, "Grandma's Strawberry Jam", 3, 2, "17 - 8 oz jars", 25);
 
 (5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
-UPDATE Products SET Price = Price + 1.50 WHERE ProductID = 1 AND ProductID = 2;
+UPDATE Products SET Price = Price + 1.50 WHERE ProductID = 1 OR ProductID = 2;
 
 (6) Delete all rows of the Products Table where the price is less than 7.00. Paste your SQL statement below.
 DELETE FROM Products WHERE Price < 7.00;
